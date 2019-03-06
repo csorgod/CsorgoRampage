@@ -64,7 +64,7 @@ namespace CsorgoRampage.Player
             Position = position;
             State = State.Active;
             HitPoints = 100;
-            MoveSpeed = 1.0f;
+            MoveSpeed = 2.0f;
         }
         
         public void Update()
@@ -74,9 +74,9 @@ namespace CsorgoRampage.Player
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(Texture, Position, null, Color.Transparent, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
+            spriteBatch.Draw(Texture, Position, null, Color.Blue, 0f, Vector2.Zero, 0.1f, SpriteEffects.None, 0f);
         }
-
+        
         public void UpdatePosition(KeyboardState currentState, IControl control, Viewport viewPort)
         {
             SetPositionX(MathHelper.Clamp(GetPositionX(), 0, viewPort.Width - Width));
@@ -87,9 +87,9 @@ namespace CsorgoRampage.Player
             if (currentState.IsKeyDown(control.Right))
                 SetPositionX(GetPositionX() + GetMoveSpeed());
             if (currentState.IsKeyDown(control.Up))
-                SetPositionX(GetPositionY() + GetMoveSpeed());
+                SetPositionY(GetPositionY() - GetMoveSpeed());
             if (currentState.IsKeyDown(control.Down))
-                SetPositionX(GetPositionY() - GetMoveSpeed());
+                SetPositionY(GetPositionY() + GetMoveSpeed());
         }
     }
 }

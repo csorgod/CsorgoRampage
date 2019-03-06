@@ -48,9 +48,9 @@ namespace CsorgoRampage
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            Vector2 playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Y + GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
-
-            GameConfig.Player.Initialize(Content.Load<Texture2D>("player"), playerPosition);
+            var playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.Width / 2, GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
+            
+            GameConfig.Player.Initialize(Content.Load<Texture2D>("Player\\player"), playerPosition);
             // TODO: use this.Content to load your game content here
         }
 
@@ -92,8 +92,11 @@ namespace CsorgoRampage
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
+
             GameConfig.Player.Draw(spriteBatch);
+
             spriteBatch.End();
+
             base.Draw(gameTime);
         }
     }

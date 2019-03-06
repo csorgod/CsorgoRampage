@@ -45,6 +45,7 @@
     <Compile Include="Controls\KeyboardControl.cs" />
     <Compile Include="CsorgoRampage.cs" />
     <Compile Include="Enemies\IEnemy.cs" />
+    <Compile Include="Enemies\PacMan.cs" />
     <Compile Include="GameConfig\DefaultGameConfig.cs" />
     <Compile Include="GameConfig\IGameConfig.cs" />
     <Compile Include="Helpers\Enum.cs" />
