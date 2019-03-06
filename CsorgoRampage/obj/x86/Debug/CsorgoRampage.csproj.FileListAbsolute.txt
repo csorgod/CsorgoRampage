@@ -1,0 +1,46 @@
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\CsorgoRampage.exe
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\CsorgoRampage.pdb
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\obj\x86\Debug\CsorgoRampage.csprojAssemblyReference.cache
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\obj\x86\Debug\CsorgoRampage.csproj.CoreCompileInputs.cache
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\obj\x86\Debug\CsorgoRampage.csproj.CopyComplete
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\obj\x86\Debug\CsorgoRampage.exe
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\obj\x86\Debug\CsorgoRampage.pdb
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\obj\x86\Debug\CsorgoRampage.csprojAssemblyReference.cache
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\obj\x86\Debug\CsorgoRampage.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\obj\x86\Debug\CsorgoRampage.exe
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\obj\x86\Debug\CsorgoRampage.pdb
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\CsorgoRampage.exe
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\CsorgoRampage.pdb
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\obj\x86\Debug\CsorgoRampage.csproj.CopyComplete
