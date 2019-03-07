@@ -1,29 +1,27 @@
-﻿using CsorgoRampage.GameConfig;
+﻿using CsorgoRampage.Enemies;
+using CsorgoRampage.GameConfig;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using CsorgoRampage.Core;
 
 namespace CsorgoRampage
 {
     /// <summary>
     /// This is the main type for your game.
     /// </summary>
-    public class CsorgoRampage : Game
+    public class CsorgoRampage : GameCore
     {
-        GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
-
-        #region Custom Variables
-
-        IGameConfig GameConfig;
-        KeyboardState CurrentState;
-        KeyboardState PreviousState;
         
+        #region Custom Variables
+        
+        IEnemy PacMan = new PacMan();
+
         #endregion
 
         public CsorgoRampage()
         {
-            graphics = new GraphicsDeviceManager(this);
+            
             Content.RootDirectory = "Content";
         }
 
@@ -36,7 +34,11 @@ namespace CsorgoRampage
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            GameConfig = new DefaultGameConfig();
+            
+            graphics.PreferredBackBufferWidth = GameConfig.GetWindow().GetWidth(); //GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+            graphics.PreferredBackBufferHeight = GameConfig.GetWindow().GetHeight(); //GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+            graphics.ApplyChanges();
+
             base.Initialize();
         }
 
@@ -50,7 +52,8 @@ namespace CsorgoRampage
             spriteBatch = new SpriteBatch(GraphicsDevice);
             var playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.Width / 2, GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
             
-            GameConfig.Player.Initialize(Content.Load<Texture2D>("Player\\player"), playerPosition);
+            GameConfig.GetPlayer().Initialize(Content.Load<Texture2D>("Player\\player"), playerPosition);
+            PacMan.Initialize(Content.Load<Texture2D>("Enemy\\pacman"));
             // TODO: use this.Content to load your game content here
         }
 
@@ -73,11 +76,14 @@ namespace CsorgoRampage
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+            #region PlayerPosition 
 
-            // TODO: Add your update logic here
             PreviousState = CurrentState;
             CurrentState = Keyboard.GetState();
-            GameConfig.Player.UpdatePosition(CurrentState, GameConfig.Control, GraphicsDevice.Viewport);
+            GameConfig.GetPlayer().UpdatePosition(CurrentState, GameConfig.GetControl(), GraphicsDevice.Viewport);
+
+            #endregion
+
 
             base.Update(gameTime);
         }
@@ -93,7 +99,8 @@ namespace CsorgoRampage
             // TODO: Add your drawing code here
             spriteBatch.Begin();
 
-            GameConfig.Player.Draw(spriteBatch);
+            GameConfig.GetPlayer().Draw(spriteBatch);
+            PacMan.Draw(spriteBatch);
 
             spriteBatch.End();
 

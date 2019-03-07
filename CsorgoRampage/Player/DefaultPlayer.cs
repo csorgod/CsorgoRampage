@@ -64,7 +64,7 @@ namespace CsorgoRampage.Player
             Position = position;
             State = State.Active;
             HitPoints = 100;
-            MoveSpeed = 2.0f;
+            MoveSpeed = 4.0f;
         }
         
         public void Update()

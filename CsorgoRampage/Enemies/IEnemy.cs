@@ -12,7 +12,7 @@ namespace CsorgoRampage.Enemies
     {
         #region Default Methods
 
-        void Initialize(Texture2D texture, Vector2 position);
+        void Initialize(Texture2D texture);
         void Update();
         void Draw(SpriteBatch spriteBatch);
 

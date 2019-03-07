@@ -45,3 +45,5 @@ C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\b
 C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\SharpDX.XInput.xml
 C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\obj\x86\Debug\CsorgoRampage.csproj.CopyComplete
 C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Content\Player\player.xnb
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Content\Player\player.xnb
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Content\Enemy\pacman.xnb

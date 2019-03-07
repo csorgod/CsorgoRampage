@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace CsorgoRampage.Player
 {
-    interface IPlayer
+    public interface IPlayer
     {
         #region Default Methods
 

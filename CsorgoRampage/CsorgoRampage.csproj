@@ -48,11 +48,14 @@
     <Compile Include="Enemies\PacMan.cs" />
     <Compile Include="GameConfig\DefaultGameConfig.cs" />
     <Compile Include="GameConfig\IGameConfig.cs" />
+    <Compile Include="Core\GameCore.cs" />
     <Compile Include="Helpers\Enum.cs" />
     <Compile Include="Player\IPlayer.cs" />
     <Compile Include="Player\DefaultPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Window\GameWindow.cs" />
+    <Compile Include="Window\IWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">

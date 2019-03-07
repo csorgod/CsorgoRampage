@@ -1,5 +1,6 @@
 ﻿using CsorgoRampage.Controls;
 using CsorgoRampage.Player;
+using CsorgoRampage.Window;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,14 @@ using System.Threading.Tasks;
 
 namespace CsorgoRampage.GameConfig
 {
-    interface IGameConfig
+    public interface IGameConfig
     {
-        IControl Control { get; set; }
-        IPlayer Player { get; set; }
+        IControl GetControl();
+        IPlayer GetPlayer();
+        IWindow GetWindow();
+
+        void SetControl(IControl control);
+        void SetPlayer(IPlayer player);
+        void SetWindow(IWindow window);
     }
 }

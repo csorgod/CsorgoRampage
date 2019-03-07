@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CsorgoRampage.Helpers
 {
-    class Enum
+    public class Enum
     {
         public enum ControlType
         {

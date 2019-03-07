@@ -8,7 +8,7 @@ using static CsorgoRampage.Helpers.Enum;
 
 namespace CsorgoRampage.Controls
 {
-    interface IControl
+    public interface IControl
     {
         ControlType ControlType { get; }
         Keys Up { get; }

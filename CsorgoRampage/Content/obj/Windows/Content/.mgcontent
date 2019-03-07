@@ -4,9 +4,11 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Guilherme Csorgo/Documents/Projects/Games/CsorgoRampage/CsorgoRampage/Content/Player/player.png</File>
+    <File>C:/Users/Csorgo/Documents/projects/Games/CsorgoRampage/CsorgoRampage/Content/Enemy/pacman.jpg</File>
+    <File>C:/Users/Csorgo/Documents/projects/Games/CsorgoRampage/CsorgoRampage/Content/Player/player.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

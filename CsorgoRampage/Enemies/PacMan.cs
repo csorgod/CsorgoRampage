@@ -47,10 +47,12 @@ namespace CsorgoRampage.Enemies
             Position.Y = value;
         }
 
-        public void Initialize(Texture2D texture, Vector2 position)
+        public void Initialize(Texture2D texture)
         {
             Texture = texture;
-            Position = new Vector2(float.Parse(new Random().Next().ToString(), CultureInfo.InvariantCulture.NumberFormat), float.Parse(new Random().Next().ToString(), CultureInfo.InvariantCulture.NumberFormat));
+            Position = new Vector2
+                (float.Parse(new Random().Next(000, 000).ToString(), CultureInfo.InvariantCulture.NumberFormat),
+                float.Parse(new Random().Next(000, 000).ToString(), CultureInfo.InvariantCulture.NumberFormat));
             State = State.Active;
             HitPoints = 1;
         }
@@ -58,7 +60,7 @@ namespace CsorgoRampage.Enemies
         public void Update()
         {
             if (State == State.Inactive)
-                Initialize(Texture, Position);
+                Initialize(Texture);
         }
 
         public void Draw(SpriteBatch spriteBatch)
