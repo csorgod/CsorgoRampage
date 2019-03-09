@@ -6,18 +6,20 @@ using static CsorgoRampage.Helpers.Enum;
 
 namespace CsorgoRampage.Player
 {
-    class DefaultPlayer : IPlayer
+    public class DefaultPlayer : IPlayer
     {
-        public Texture2D Texture;
-        public Vector2 Position;
-        public State State;
+        private Texture2D Texture;
+        private Vector2 Position;
+        private State State;
 
-        public string Name;
-        public int HitPoints;
-        public float MoveSpeed;
+        private string Name;
+        private int HitPoints;
+        private float MoveSpeed;
 
-        public int Width;
-        public int Height;
+        private int Width;
+        private int Height;
+
+        private Rectangle ColisionArea;
         
         #region Position 
 
@@ -58,6 +60,37 @@ namespace CsorgoRampage.Player
 
         #endregion
 
+        #region Width
+
+
+
+        #endregion
+
+        #region Height
+
+
+
+        #endregion
+
+        #region ColisionArea
+
+        public void SetColisionArea()
+        {
+            ColisionArea = new Rectangle(
+                (int)GetPositionX(),
+                (int)GetPositionY(),
+                Width,
+                Height);
+
+        }
+
+        public bool GetColisionArea(Rectangle rectangle)
+        {
+            return ColisionArea.Intersects(rectangle);
+        }
+
+        #endregion
+
         public void Initialize(Texture2D texture, Vector2 position)
         {
             Texture = texture;
@@ -65,6 +98,7 @@ namespace CsorgoRampage.Player
             State = State.Active;
             HitPoints = 100;
             MoveSpeed = 4.0f;
+            SetColisionArea();
         }
         
         public void Update()
@@ -91,5 +125,6 @@ namespace CsorgoRampage.Player
             if (currentState.IsKeyDown(control.Down))
                 SetPositionY(GetPositionY() + GetMoveSpeed());
         }
+        
     }
 }

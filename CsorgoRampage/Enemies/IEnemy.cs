@@ -12,7 +12,7 @@ namespace CsorgoRampage.Enemies
     {
         #region Default Methods
 
-        void Initialize(Texture2D texture);
+        void Initialize(Texture2D texture, int maxWidth, int maxHeight);
         void Update();
         void Draw(SpriteBatch spriteBatch);
 
@@ -33,5 +33,10 @@ namespace CsorgoRampage.Enemies
         void Respawn();
 
         Vector2 GetCartesianPosition();
+
+        void SetColisionArea();
+
+        bool GetColisionArea(Rectangle rectangle);
+
     }
 }

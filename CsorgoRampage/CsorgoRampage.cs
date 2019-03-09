@@ -21,7 +21,6 @@ namespace CsorgoRampage
 
         public CsorgoRampage()
         {
-            
             Content.RootDirectory = "Content";
         }
 
@@ -53,7 +52,7 @@ namespace CsorgoRampage
             var playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.Width / 2, GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
             
             GameConfig.GetPlayer().Initialize(Content.Load<Texture2D>("Player\\player"), playerPosition);
-            PacMan.Initialize(Content.Load<Texture2D>("Enemy\\pacman"));
+            PacMan.Initialize(Content.Load<Texture2D>("Enemy\\pacman"), GameConfig.GetWindow().GetWidth(), GameConfig.GetWindow().GetHeight());
             // TODO: use this.Content to load your game content here
         }
 
@@ -83,8 +82,7 @@ namespace CsorgoRampage
             GameConfig.GetPlayer().UpdatePosition(CurrentState, GameConfig.GetControl(), GraphicsDevice.Viewport);
 
             #endregion
-
-
+            
             base.Update(gameTime);
         }
 

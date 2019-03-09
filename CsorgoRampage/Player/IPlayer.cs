@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace CsorgoRampage.Player
 {
@@ -10,7 +11,9 @@ namespace CsorgoRampage.Player
         #region Default Methods
 
         void Initialize(Texture2D texture, Vector2 position);
+
         void Update();
+
         void Draw(SpriteBatch spriteBatch);
 
         #endregion
@@ -30,6 +33,10 @@ namespace CsorgoRampage.Player
         float GetMoveSpeed();
 
         void UpdatePosition(KeyboardState CurrentState, IControl control, Viewport viewPort);
+
+        void SetColisionArea();
+
+        bool GetColisionArea(Rectangle rectangle);
 
         #endregion
     }

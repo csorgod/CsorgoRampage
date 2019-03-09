@@ -17,6 +17,8 @@ namespace CsorgoRampage.Enemies
         public int Width;
         public int Height;
         
+        private Rectangle ColisionArea;
+
         public Vector2 GetCartesianPosition()
         {
             return Position;
@@ -47,20 +49,19 @@ namespace CsorgoRampage.Enemies
             Position.Y = value;
         }
 
-        public void Initialize(Texture2D texture)
+        public void Initialize(Texture2D texture, int maxWidth, int maxHeight)
         {
             Texture = texture;
             Position = new Vector2
-                (float.Parse(new Random().Next(000, 000).ToString(), CultureInfo.InvariantCulture.NumberFormat),
-                float.Parse(new Random().Next(000, 000).ToString(), CultureInfo.InvariantCulture.NumberFormat));
+                (float.Parse(new Random().Next(000, maxWidth).ToString(), CultureInfo.InvariantCulture.NumberFormat),
+                float.Parse(new Random().Next(000, maxHeight).ToString(), CultureInfo.InvariantCulture.NumberFormat));
             State = State.Active;
             HitPoints = 1;
         }
 
         public void Update()
         {
-            if (State == State.Inactive)
-                Initialize(Texture);
+            
         }
 
         public void Draw(SpriteBatch spriteBatch)
@@ -77,5 +78,23 @@ namespace CsorgoRampage.Enemies
         {
 
         }
+
+        #region ColisionArea
+
+        public void SetColisionArea()
+        {
+            ColisionArea = new Rectangle(
+                (int)GetPositionX(),
+                (int)GetPositionY(),
+                Width,
+                Height);
+        }
+
+        public bool GetColisionArea(Rectangle rectangle)
+        {
+            return ColisionArea.Intersects(rectangle);
+        }
+
+        #endregion
     }
 }
