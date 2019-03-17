@@ -4,6 +4,8 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using CsorgoRampage.Core;
+using MonoGame.Extended.Tiled;
+using MonoGame.Extended.Tiled.Graphics;
 
 namespace CsorgoRampage
 {
@@ -17,6 +19,9 @@ namespace CsorgoRampage
         
         IEnemy PacMan = new PacMan();
 
+        private TiledMap tiledMap;
+        private TiledMapRenderer tiledMapRenderer;
+        
         #endregion
 
         public CsorgoRampage()
@@ -33,7 +38,11 @@ namespace CsorgoRampage
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            
+
+            tiledMap = Content.Load<TiledMap>("Map\\Dungeon");
+            tiledMapRenderer = new TiledMapRenderer(GraphicsDevice);
+
+
             graphics.PreferredBackBufferWidth = GameConfig.GetWindow().GetWidth(); //GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
             graphics.PreferredBackBufferHeight = GameConfig.GetWindow().GetHeight(); //GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
             graphics.ApplyChanges();
@@ -75,6 +84,12 @@ namespace CsorgoRampage
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+            #region Map
+
+            tiledMapRenderer.Update(tiledMap, gameTime);
+
+            #endregion
+
             #region PlayerPosition 
 
             PreviousState = CurrentState;
@@ -96,6 +111,8 @@ namespace CsorgoRampage
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
+
+            tiledMapRenderer.Draw(tiledMap);
 
             GameConfig.GetPlayer().Draw(spriteBatch);
             PacMan.Draw(spriteBatch);

@@ -47,3 +47,19 @@ C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\o
 C:\Users\Guilherme Csorgo\Documents\Projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Content\Player\player.xnb
 C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Content\Player\player.xnb
 C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Content\Enemy\pacman.xnb
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Extended.Content.Pipeline.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Extended.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Extended.Graphics.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Extended.pdb
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Extended.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Extended.Graphics.pdb
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Extended.Graphics.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.pdb
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Content\Map\Dungeon.tmx
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Content\Map\Dungeon.tsx
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Content\Map\Dungeon.xnb
+C:\Users\Csorgo\Documents\projects\Games\CsorgoRampage\CsorgoRampage\bin\Windows\x86\Debug\Content\Map\Dungeon\0x72_16x16DungeonTileset.v3.xnb
